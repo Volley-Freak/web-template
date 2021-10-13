@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aa05dadff6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <title>Adventure</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ADVENTURE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- carousel -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="img-gradient">
+                    <!-- <img src="https://source.unsplash.com/2000x700/?mountains" class="d-block w-100" alt="..."> -->
+                    <img src="images/1.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-caption d-none d-md-block text-light">
+                    <h1>Camping</h1>
+                    <p>Home Is Where You Park It.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="img-gradient">
+                    <!-- <img src="https://source.unsplash.com/2000x700/?trekking" class="d-block w-100" alt="..."> -->
+                    <img src="images/2.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-caption d-none d-md-block text-light">
+                    <h1>Hiking</h1>
+                    <p>The More You Know. The Less You Need.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="img-gradient">
+                    <!-- <img src="https://source.unsplash.com/2000x700/?adventure" class="d-block w-100" alt="..."> -->
+                    <img src="images/3.jpg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-caption d-none d-md-block text-light">
+                    <h1>Nature</h1>
+                    <p>Land Really Is The Best Art.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    <!-- CARD  -->
+    <div class="container py-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 class="card-title">Camping</h2>
+                        <p class="card-text">We have lived in a tent for many months while travelling. We have even lived in a tent while working as safari guides in Africa for a few years. And guess what, it was the best piece of real estate we had. Just our tent and all
+                            nature had to offer around us.</p>
+
+                    </div>
+                    <div class="card-button ms-2 mb-2">
+                        <button type="button" class="btn btn-dark">Explore</button>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 class="card-title">Hiking</h2>
+                        <p class="card-text">Hiking, walking in nature as a recreational activity. Especially among those with sedentary occupations, hiking is a natural exercise that promotes physical fitness, is economical and convenient, and requires no special equipment.
+                            Because hikers can walk as far as they want, there is no physical strain unless they walk among hills or mountains.</p>
+
+                    </div>
+                    <div class="card-button ms-2 mb-2">
+                        <button type="button" class="btn btn-dark">Explore</button>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 class="card-title">Nature</h2>
+                        <p class="card-text">It is not so much for its beauty that the forest makes a claim upon men’s hearts, as for that subtle something, that quality of air that emanation from old trees, that so wonderfully changes and renews a weary spirit.</p>
+
+                    </div>
+                    <div class="card-button ms-2 mb-2">
+                        <button type="button" class="btn btn-dark">Explore</button>
+                    </div>
+
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TWO LAGRGE CARDS  -->
+    <div class="container">
+        <div class="mx-auto text-center py-3">
+            <h1>Services</h1>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+                <div class="card">
+                    <img src="images/guides.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 class="card-title">Guides</h2>
+                        <p class="card-text">Our travel guides, which are curated by Travel + Leisure editors and a network of local correspondents, highlight the best hotels, restaurants, shops, bars, and things to do in the world's most exciting destinations. Browse our
+                            in-depth travel information for great ideas and insider finds, plus smart travel tips that will have you feeling like a local in no time.</p>
+                    </div>
+                    <div class="card-button ms-2 mb-2">
+                        <button type="button" class="btn btn-dark">Read More</button>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/hotels.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 class="card-title">Hotels</h2>
+                        <p class="card-text">If you think of India as being “off season” during the summer months, think again. As the country’s thermometer begins to resemble that of cooking instructions, summer is in fact the perfect time to visit some of India’s best hill
+                            station getaways. Browse our list of the best summer hill stations in India and start to plan your getaway..</p>
+                    </div>
+                    <div class="card-button ms-2 mb-2">
+                        <button type="button" class="btn btn-dark">Read More</button>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5" id="about-us">
+        <div class="about-bg-img"></div>
+        <div class="about-us-content">
+            <h1>About Us</h1>
+            <p><b>Adventure</b> is an independent adventure travel company which was started in 1991 by adventurer and mountaineer Gavin Bate, and developed over many years of organising and guiding expeditions around the world.
+
+            </p>
+        </div>
+    </div>
+    <!-- FOUR COLUMNS -->
+    <div class="container my-5" id="four-cols">
+        <h1 class="text-center my-4">Featured Blogs</h1>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/mountains.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MOUNTAINS</h5>
+                        <p class="card-text">The mighty chunks rise all over the world, including the oceans. They usually have steep, sloping sides and sharp or rounded ridges, and a high point, called a peak or summit</p>
+
+                    </div>
+                    <div class="text-left ms-3 mb-3">
+                        <button class="btn btn-dark">Read More</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/trekking.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">TREKKING</h5>
+                        <p class="card-text">Trekking is an outdoor activity of walking for more than a day. It is a form of walking, undertaken with the specific purpose of exploring and enjoying the scenery.</p>
+
+                    </div>
+                    <div class="text-left ms-3 mb-3">
+                        <button class="btn btn-dark">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/paragliding.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PARAGLIDING</h5>
+                        <p class="card-text">Paragliding is the recreational and competitive adventure sport of flying paragliders: lightweight, free-flying, foot-launched glider aircraft with no rigid primary structure.</p>
+
+                    </div>
+                    <div class="text-left ms-3 mb-3">
+                        <button class="btn btn-dark">Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/boating.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">BOATING</h5>
+                        <p class="card-text">Boating is the leisurely activity of travelling by boat, or the recreational use of a boat whether powerboats, sailboats, or man-powered vessels, focused on the travel itself.</p>
+
+                    </div>
+                    <div class="text-left ms-3 mb-3">
+                        <button class="btn btn-dark">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-us">
+        <div class="contact-bg-img"></div>
+
+        <div class="contact-us-form">
+            <h1 class="text-center"> Contact Us</h1>
+            <form action="#">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Subject" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="input-group">
+                    <textarea class="form-control" rows="6" placeholder="Your Message Here..." aria-label="With textarea"></textarea>
+                </div>
+                <div class="text-left my-3">
+                    <div class="btn btn-dark col-12">Send</div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="bg-dark">
+        <h4>Created By <span>Vollefreak</span></h4>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+    -->
+</body>
+
+
+</html>

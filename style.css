@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.card-text {
+    font-family: 'Montserrat', Courier, monospace;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+
+.fa-angle-left,
+.fa-angle-right {
+    font-size: 70px;
+}
+
+.img-gradient {
+    position: relative;
+    display: inline-block;
+}
+
+.img-gradient:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    /* background: -moz-linear-gradient(top, rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%); FF3.6+ */
+    /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(220, 66, 37, 0.5)), color-stop(100%,rgba(0,47,75,0.5))); Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff00 50%, rgba(0, 0, 0, 0.692) 100%);
+    /*Chrome10+,Safari5.1+ */
+    /* background: -o-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); Opera 11.10+ */
+    /* background: -ms-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); IE10+ */
+    /* background: linear-gradient(to bottom, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000', GradientType=0);
+}
+
+.carousel-item p {
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+
+/* .container{
+  max-width: 1500px;
+} */
+
+.card {
+    border: none;
+    background-color: #efefef85;
+}
+
+
+/* ABOUT US  */
+
+#about-us {
+    /* border: 2px solid red; */
+    height: 500px;
+    /* max-height: 900px; */
+    /* max-height: 400px; */
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-bg-img {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.335) 10%, rgba(0, 0, 0, 0.274)), url(/images/custom.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about-us-content {
+    padding: 20px 0px;
+    height: 100%;
+    width: 80%;
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 0px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: 'Montserrat', Courier, monospace;
+}
+
+
+/* CONTACT US  */
+
+.contact-us {
+    width: 100%;
+    height: 500px;
+    min-height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.contact-bg-img {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 0, 0, 0.335) 10%, rgba(0, 0, 0, 0.274)), url(/images/mountains.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    /* position: absolute; */
+}
+
+.contact-us-form {
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+footer span {
+    color: steelblue;
+}
